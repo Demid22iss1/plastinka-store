@@ -1,0 +1,11 @@
+node_modules/
+database.sqlite
+*.db
+*.log
+.env
+.DS_Store
+public/uploads/
+public/audio/
+public/photo/
+public/avatars/
+package-lock.json
