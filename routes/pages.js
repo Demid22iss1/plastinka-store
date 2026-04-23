@@ -1980,7 +1980,7 @@ const mobileScripts = `
                     photo_url: tgUser.photo_url || ''
                 })
             }).then(res => res.json()).then(data => {
-                if (data.success && !${!!user}) window.location.reload();
+                if (data.success) window.location.reload();
             }).catch(err => console.error('Auth error:', err));
         }
     }
